@@ -14,7 +14,7 @@ const CreatePost = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const res = await axios.post(
-      'https://noderun01.herokuapp.com/api/posts/1',
+      'https://noderun-be.herokuapp.com/api/posts/1',
       addPost
     )
   }

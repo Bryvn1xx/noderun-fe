@@ -16,7 +16,7 @@ const PostPage = () => {
 
   const getPost = async () => {
     try {
-      const post = await axios.get(`https://noderun01.herokuapp.com/api/posts/${postId}/1`)
+      const post = await axios.get(`https://noderun-be.herokuapp.com/api/posts/${postId}/1`)
       console.log('post', post.data[0])
       setPost(post.data[0])
     } catch (err) {
@@ -26,7 +26,7 @@ const PostPage = () => {
 
   const getCommentsByPost = async () => {
     try {
-      const comments = await axios.get(`https://noderun01.herokuapp.com/api/comments/${postId}`)
+      const comments = await axios.get(`https://noderun-be.herokuapp.com/api/comments/${postId}`)
       console.log('comments', comments.data)
       setComments(comments.data)
     } catch (err) {
@@ -40,7 +40,7 @@ const PostPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const res = await axios.post(
-      `https://noderun01.herokuapp.com/api/comments/${postId}`,
+      `https://noderun-be.herokuapp.com/api/comments/${postId}`,
       addComment
     )
     navigate(`/`)

@@ -7,7 +7,7 @@ const PostCard = ({ post }) => {
 
 
   const deletePost = async (postId) => {
-    await axios.delete(`https://noderun01.herokuapp.com/api/posts/${postId}`)
+    await axios.delete(`https://noderun-be.herokuapp.com/api/posts/${postId}`)
     navigate('/about')
   }
 
