@@ -1,0 +1,260 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=MuseoModerno:wght@100&family=Poiret+One&display=swap');
+.App {
+  height: 100vh;
+  text-align: center;
+  /* background-image: linear-gradient(to right, grey, white); */
+  zoom: 80%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.home-component {
+  background-color: blue;
+  color: white;
+}
+
+.home-page {
+  justify-content: center;
+  color: black;
+  background-color: white;
+
+}
+.about-container {
+  height: 50%;
+  width: 90%;
+  padding: 50px;
+}
+.support-quote {
+  font-size: 35px;
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding: 25px;
+  margin: 25px
+}
+.support-socials {
+  font-size: 30px;
+  width: 50%;
+  float: right;
+}
+.support-img {
+  height: 550px;
+  width: 550px;
+}
+.about-paragraph {
+  
+  width: 50%;
+  float: left;
+  font-size: 35px;
+  text-align: left;
+
+}
+.about-img {
+  width: 50%;
+  float: right;
+}
+.navbox {
+  box-shadow: 2px 3px;
+  background-color: grey;
+  padding: 15px;
+  height: 30px;
+  width: 100%;
+}
+.box {
+  justify-content: center;
+}
+.form {
+  justify-content: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 50%;
+  
+
+}
+.create-comment {
+  font-size: 30px;
+}
+.create-comment-form {
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  
+}
+.navbar {
+  float: left;
+  display: inline;
+  font-size: 20px;
+}
+
+.apple-logo {
+font-size: 100px;
+}
+.navlink {
+  text-decoration: none;
+  /* border: solid black; */
+  padding: 3px;
+  margin: 5px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+
+a:hover {
+  color: red;
+}
+.dlt-btn {
+  ox-shadow:inset 0px 0px 18px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 3px 0px #854629;
+}
+
+.edt-btn {
+  ox-shadow:inset 0px 0px 18px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 3px 0px #854629;
+  width: 40px;
+}
+
+.comments-block {
+  margin: auto;
+  padding: 15px;
+  text-align: left;
+  outline: 2px solid black;
+}
+
+.comment-post {
+  color: rgb(2, 2, 125);
+  
+}
+.comment-post-desc {
+  border: 1px;
+  background-color: #0b93f6;
+  border-radius: 25px;
+  padding: 12px;
+  margin: 2px;
+  display: inline-block;
+  color: white;
+}
+.form:hover {
+  background-color: #0b93f6;
+  transition: 0.5s;
+  
+}
+
+/* .postpage-bar {
+  background-color: red;
+} */
+
+.postcard-img {
+  justify-content: center;
+  padding: 2px;
+  height: 360px;
+  width: 90%;
+  margin: 20px;
+  border: solid black;
+}
+.home-block {
+  
+}
+.windows-logo {
+  font-size: 100px;
+  padding: 50px;
+}
+.home-quote {
+  justify-content: center;
+  height: 250px;
+  width: 500px;
+}
+.postpage-img {
+  height: 500px;
+  width: 75%;
+}
+
+.postpage-bar {
+  background-color: white;
+}
+.post-name {
+  color: white;
+}
+.home-img {
+  
+}
+
+.postcard-container {
+  justify-content: center;
+  margin: 25px;
+  padding: 25px;
+  /* border: solid; */
+  /* background-image: linear-gradient(to left red, blue); */
+  /* background: linear-gradient(to left, #15133C, white, #15133C); */
+  background-color: grey;
+  border-radius: 10px;
+}
+.postcard-card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+img:hover {
+  opacity: 0.5;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
